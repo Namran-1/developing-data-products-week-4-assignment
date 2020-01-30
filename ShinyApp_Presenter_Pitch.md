@@ -24,12 +24,8 @@ Assignment Description
 
 Data Description
 ========================================================
-The ChickWeight data frame has 578 rows and 4 columns from an experiment on the effect of diet on the early growth of chicks. *A preview of the first 7 rows of the data set is as follows:*
+<font size="5">The ChickWeight data frame has 578 rows and 4 columns from an experiment on the effect of diet on the early growth of chicks. *A preview of the first 7 rows of the data set is as follows:*</font>
 
-
-```r
-head(ChickWeight)
-```
 
 ```
   weight Time Chick Diet
@@ -40,14 +36,14 @@ head(ChickWeight)
 5     76    8     1    1
 6     93   10     1    1
 ```
-The data set consists of 4 variables in total. **I will particularly examine how a chick's weight changes with age in days since birth (this is the Time column) and how this is affected by the diet a chick is fed** 
-My Shiny application will enable the user to get a prediction of chick weight for a given chick age where chick age can be configured by the user in the form of an interactive slider input. 
+<font size="5">The data set consists of 4 variables in total. **I will particularly examine how a chick's weight changes with age in days since birth (this is the Time column) and how this is affected by the diet a chick is fed** 
+My Shiny application will enable the user to get a prediction of chick weight for a given chick age where chick age can be configured by the user in the form of an interactive slider input.</font> 
 
 
 
 Shiny Application
 ========================================================
-URL for my shiny application is
+<font size="5">**URL for my shiny application is:**
 
 <https://namran.shinyapps.io/Week_4_Assignment_Shiny_App/>
 
@@ -55,14 +51,14 @@ The application consists of:
 
 **Left panel:**
 - The left panel shows the Slider Range. This slider range can be changed by the user and is the age of the chick in days since birth. This variable is what the prediction of chick weight is based on. The slider range is between 0 and 25 (maxinum age in the ChickWeight data set is 21 days)
-- The left panel also contains 4 checkbox inputs and these are also configurable by the user. Here the user can choose to hide the predictions for certain chick diets - there are 4 diets in total used in the ChickWeight data experiment, the aim of the experiment being to see how diet affects early growth of chicks
+- The left panel also contains 4 checkbox inputs and these are also configurable by the user. Here the user can choose to hide the predictions for certain chick diets - there are 4 diets in total used in the ChickWeight data experiment, the aim of the experiment being to see how diet affects early growth of chicks</font>
 
 
 
 Shiny Application (cont. ...)
 ========================================================
 
-**Main Panel:**
+<font size="5">**Main Panel:**
 - The main panel shows the plot of all data points (regardless of diet) in the ChickWeight dataset (black data points)
 - Overlayed on this plot are the 4 predictions of chick weight according to the 4 diets - colour legend highlights which prediction lines belong to which diet
 - Below the plot are the exact predictions for each diet for the chosen value of chick age in the slider input (left panel). These four data points are also highlighted on the prediction lines in the same respective colours
@@ -70,4 +66,4 @@ Shiny Application (cont. ...)
 
 **Thank you for taking the time to review my simple attempt at a shiny application and presenter pitch using RStudio Presenter.** 
 
-**I hope you enjoyed it! :)**
+**I hope you enjoyed it! :)**</font>
